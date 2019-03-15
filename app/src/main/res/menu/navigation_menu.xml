@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showsIn = "navigation_view">
+
+
+    <!--NOTE: checkableBehavior is  used to make it stay selected-->
+    <group android:checkableBehavior="single"> <!--checkableBehavior="single" makes sure only one item will be selected-->
+        <item android:id="@+id/nav_android"
+            android:title="Android"
+            android:icon="@drawable/ic_android">
+        </item>
+        <item android:id="@+id/nav_archive"
+            android:title="Archive"
+            android:icon="@drawable/ic_archive">
+        </item>
+        <item android:id="@+id/backup"
+            android:title="Backup"
+            android:icon="@drawable/ic_backup">
+        </item>
+    </group>
+
+    <!--second section-->
+    <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/share"
+                android:icon="@drawable/ic_share"
+                android:title="Share">
+            </item>
+        </menu>
+    </item>
+</menu>
