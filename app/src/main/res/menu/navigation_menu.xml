@@ -14,7 +14,7 @@
             android:title="Archive"
             android:icon="@drawable/ic_archive">
         </item>
-        <item android:id="@+id/backup"
+        <item android:id="@+id/nav_backup"
             android:title="Backup"
             android:icon="@drawable/ic_backup">
         </item>
